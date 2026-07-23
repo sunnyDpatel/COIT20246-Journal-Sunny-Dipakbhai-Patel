@@ -2,7 +2,7 @@
 
 
 
--Student Name: Sunny Dipakbhai Patel
--Student ID: 12346211
--campus: MEL
--Tutor: Mamunur
+- Student Name: Sunny Dipakbhai Patel
+- Student ID: 12346211
+- Campus: MEL
+- Tutor: Mamunur
