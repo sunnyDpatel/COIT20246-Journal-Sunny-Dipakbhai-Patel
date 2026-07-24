@@ -9,3 +9,7 @@
     - Ram : 16,073 MB
     - Disk : 8 GB
 - ![computerInfo](./image/computerinfo.png)
+
+
+- Adding opwrt image
+- ![computerInfo](./image/week2-task4-openwrt.png)
