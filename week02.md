@@ -6,4 +6,6 @@
 
 
 - Computer Information
+    - Ram : 16,073 MB
+    - Disk : 8 GB
 - ![computerInfo](./image/computerinfo.png)
