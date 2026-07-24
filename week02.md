@@ -13,3 +13,7 @@
 
 - Adding opwrt image
 - ![computerInfo](./image/week2-task4-openwrt.png)
+
+
+- Getting info about ram and size of OpenWRT
+- ![computerInfo](./image/week2-task4-ram.png)
