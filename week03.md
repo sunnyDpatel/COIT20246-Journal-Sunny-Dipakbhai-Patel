@@ -2,10 +2,10 @@
 # Week 3 journal
 
 - Task 3 : ping local computer
-- ![ping](./image/week3-task3-ping.png)
+ ![ping](./image/week3-task3-ping.png)
 
 - List The values of Delay Using Test-Connection command in powershell
-- ![ping](./image/week03_task03_delay.png)
+ ![ping](./image/week03_task03_delay.png)
 
 
 - Task 4 : Address of WRT
@@ -15,3 +15,7 @@
 - Ping WRT
 -     Command : ping 192.168.56.2
   ![ping](./image/week03_task04_pingWRT.png)
+
+- Ping Local Computer Using WRT Machine
+-     Command : ping 10.178.32.37
+  ![ping](./image/week03_task04_pingLocalUsingWRT.png)
