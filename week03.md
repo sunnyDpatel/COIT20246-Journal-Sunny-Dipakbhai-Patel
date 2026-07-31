@@ -6,3 +6,12 @@
 
 - List The values of Delay Using Test-Connection command in powershell
 - ![ping](./image/week03_task03_delay.png)
+
+
+- Task 4 : Address of WRT
+-         Command : ifconfig
+-         Address : 192.168.56.2
+
+- Ping WRT
+-     Command : ping 192.168.56.2
+  ![ping](./image/week03_task04_pingWRT.png)
