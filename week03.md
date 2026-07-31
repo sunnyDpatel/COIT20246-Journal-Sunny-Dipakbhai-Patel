@@ -19,3 +19,6 @@
 - Ping Local Computer Using WRT Machine
 -     Command : ping 10.178.32.37
   ![ping](./image/week03_task04_pingLocalUsingWRT.png)
+
+- Opem pcap file in wireshark
+-  ![ping](./image/week03_task04_myping_pcap.png)
