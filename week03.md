@@ -22,3 +22,10 @@
 
 - Opem pcap file in wireshark
 -  ![ping](./image/week03_task04_myping_pcap.png)
+
+-  Task 5 :  List the names of the five (5) levels of breach of academic integrity.
+-         Level 1 – Inappropriate Academic Conduct
+-         Level 2 – Minor Academic Misconduct
+-         Level 3 – Moderate Academic Misconduct
+-         Level 4 – Substantial Academic Misconduct
+-         Level 5 – Serious Academic Misconduct
