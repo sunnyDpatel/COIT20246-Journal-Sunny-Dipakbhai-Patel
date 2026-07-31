@@ -29,3 +29,11 @@
 -         Level 3 – Moderate Academic Misconduct
 -         Level 4 – Substantial Academic Misconduct
 -         Level 5 – Serious Academic Misconduct
+
+
+- Task 7 : Find Website Add4ess.
+-          Add4ess : https://www.uber.com/
+-          Domain Name : ube*.com
+-          Server:  sydeqaddc01.ad.cqu.edu.au
+-          Address:  10.8.0.25
+  
