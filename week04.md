@@ -4,3 +4,6 @@
 
 - Task 3 b :A switched LAN that has four PCs connected to one switch, four PCs connected to another switch, and those two switches are connected to a third switch in star topology.
  ![part b](./image/week4-task3-lanb.png)
+
+ - Task 4 : Inspect the packets in Wireshark (many are very similar, so focus on the different packets).  
+ ![part b](./image/week4task4-ping.png)
