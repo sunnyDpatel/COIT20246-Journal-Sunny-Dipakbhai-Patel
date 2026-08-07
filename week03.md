@@ -36,4 +36,9 @@
 -          Domain Name : ube*.com
 -          Server:  sydeqaddc01.ad.cqu.edu.au
 -          Address:  10.8.0.25
-  
+
+- Task 8 : Speed Test
+- ![speed test](./image/week03-task08-speed_test.png)
+- Connection Type	Home : Wi-Fi (802.11ac / Wi-Fi 5)
+- ISP : 	ABC Broadband
+- Due to wifi signal strength and network  conjection, speed might be varies
