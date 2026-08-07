@@ -38,7 +38,10 @@
 -          Address:  10.8.0.25
 
 - Task 8 : Speed Test
-- ![speed test](./image/week03-task08-speed_test.png)
+- ![speed test](./image/week3_task8_speed3.png)
+- ![speed test](./image/week3_task8_speed2.png)
+- ![speed test](./image/week3_task8_speed1.png)
 - Connection Type	Home : Wi-Fi (802.11ac / Wi-Fi 5)
+- Avg Speed : 25.33
 - ISP : 	ABC Broadband
 - Due to wifi signal strength and network  conjection, speed might be varies
