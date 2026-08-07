@@ -39,7 +39,7 @@
 
 - Task 8 : Speed Test
 - ![speed test](./image/week3_task8_speed3.png)
-- ![speed test](./image/week3_task8_speed2.png)
+- ![speed test](./image/week3_tas8_speed2.png)
 - ![speed test](./image/week3_task8_speed1.png)
 - Connection Type	Home : Wi-Fi (802.11ac / Wi-Fi 5)
 - Avg Speed : 25.33
