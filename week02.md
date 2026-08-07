@@ -17,3 +17,9 @@
 
 - Getting info about ram and size of OpenWRT
 - ![computerInfo](./image/week2-task4-ram.png)
+
+- After doing sea*ching about Wrt, information is given below.
+-            Architecture : intel core i5 12th Gen 12600
+-            Target Platform : x86/64
+-            Memory : 106 MB
+-            Storage : 102 MB 
