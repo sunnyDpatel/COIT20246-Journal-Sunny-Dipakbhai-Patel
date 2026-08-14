@@ -23,3 +23,23 @@ fe80::91fd:c26c:d9b6:80b: Local IPv6 Address — IPv6 Address assigned to this m
 
 fe80::/64: IPv6 Link-Local Subnet — IPv6 traffic— a reserved address that links together devices that are directly connected on the same physical link.
  IPv6 Link-Local Subnet: IPv6 traffic is sent to other devices that are attached to the same physical link.
+
+ ## task 03
+  ![ethernet](./image/week05_task03_lan.png)
+![ethernet](./image/week05_task03_packet.png)
+![ethernet](./image/week05_task03_routing_table.png)
+
+
+| Device | Interface | IP Address/Subnet Mask | Default Gateway |
+| :--- | :--- | :--- | :--- |
+| PC 1   | eth0 |  62.11.0.10 /24 | 62.11.0.1 |
+| PC 2   | eth0 | 62.11.0.11 /24 | 62.11.0.1 |
+| PC 3  | eth0 | 62.11.0.12 /24 | 62.11.0.1 |
+| Switch 1  | — | Unassigned | — |
+|Router 1 | eth0 | 62.11.0.1 /24 | N/A |
+| Router 1 | eth1 | 10.0.0.1 /24 | N/A |
+| Router 2 | eth1 |  10.0.0.2 /24 | N/A |
+| Router 2 | eth0 |    74.24.0.1 /24 | N/A |
+| Switch 2 | — | Unasdsigned | — |
+| PC 4 | eth0 | 74.24.0.10 /24 | 74.24.0.1 |
+| PC 5 | eth0 |   74.24.0.11 /24 | 74.24.0.1 |
