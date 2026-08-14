@@ -45,7 +45,49 @@ fe80::/64: IPv6 Link-Local Subnet — IPv6 traffic— a reserved address that li
 | PC 5 | eth0 |   74.24.0.11 /24 | 74.24.0.1 |
 
 
+## Task 4 
+-The students will adhere to academic honesty.The students will demonstrate academic honesty.
 
+- This is the strongest case for an overlap in the scenarios of un-cited AI code generation and AI for collaboration.This is the best scenario for overlapping AI code generation and AI for collaboration.
+- A student was given a tight deadline for an assessment script, and was able to use an AI coding assistant to turn an idea into a nucleus of an assessment, without citing or declaring it appropriately. Moreover, they presented their completed logics to another classmate and asked them to "help" them "debug," so that their two logics are very similar.
+
+---
+
+### 1. Group Discussion Summary
+
+- What were the students' opportunities for improvement?
+- The student should have sought extension of time for the assignment through the formal process at CQU instead of relying on the unreferenced AI generation under time pressure, or during consultation time with the unit coordinator/tutor.
+- If AI tools are allowed to use during brainstorming or debugging (in the unit), the student MUST clearly state and cite the use of AI as per the CQ assessment guidelines.
+Independent Work: The student should have discussed the concepts they used, rather than giving their actual code solution to their classmate, to the student's classmate, or to the student's teacher.
+
+---
+
+- A person's level of breach, likely outcome and fairness (CQU Policy) will be assessed.The person's level of breach, likely outcome and fairness (CQU Policy) will be assessed.
+
+-  Violation of Minor to Moderate Academic Misconduct (Inappropriate use of generative AI/ Plagiarism and Collusion):
+Under CQU Policy: most likely outcome:
+  First Offence: Warning, Attendance to Academic Integrity Module (AIM) and Loss of 1 mark or a score of zero for the specific assessment element.
+  Repeated/Severe Offence: Zero grade ($0\%$) for the entire assessment or failure of the unit ($F$ grade), that appears on the CQU Academic Misconduct Register.
+* **Fairness Perspective:**
+  Is the student fairly treated? (Yes/No) Yes. It holds students accountable to professional ethics and provides a chance to learn through remedial education to first-time offenders.
+  Yes – for fair to hardworking students. The integrity and worth of the degree are valued and protected by strict penalties for students who labor individually.
+
+---
+
+If not caught, what might be implications into the future?
+
+* **For the Student:**
+  Skill Deficit: Fails to build fundamental skills and experiences significant problems in more demanding courses, capstone projects, and/or industry placement.
+  Unsafely using shortcuts could lead to workplace consequences such as discipline, termination, or disqualification from professional bodies (such as ACS membership).
+For Other Students & CQ HECATE (Awarded by CQ HECATE)
+  Passes without any effort devalue CQUs technology degrees' reputation and accreditation in the job market, affecting all graduates.
+
+---
+
+## 2. Recommendations for Students
+
+2. Always declare & cite external tools: If using AI assistants, code libraries or other external documentation to aid learning, declare and cite in line with the guidelines of the CQU and referencing rules.
+Never share your code files or finished assignments with another student, but only explain the abstract logic, make block diagrams or post the official CQU documentation.
 ## Task 5: IP Address Lookup.
 
 - **Accuracy:** Approximate. It is the city or metropolitan area, not an exact address or street.
