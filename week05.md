@@ -43,3 +43,17 @@ fe80::/64: IPv6 Link-Local Subnet — IPv6 traffic— a reserved address that li
 | Switch 2 | — | Unasdsigned | — |
 | PC 4 | eth0 | 74.24.0.10 /24 | 74.24.0.1 |
 | PC 5 | eth0 |   74.24.0.11 /24 | 74.24.0.1 |
+
+
+
+## Task 5: IP Address Lookup.
+
+- **Accuracy:** Approximate. It is the city or metropolitan area, not an exact address or street.
+
+- The choice between home Wi-Fi and mobile data.Home Wi-Fi vs Mobile Data.
+-          Home Wi-Fi or Broadband IP (e.g., `120.147.45.12`) is correct as broadband IP ranges are associated with the local ISP exchange hubs.
+-         Less accurate (often miles away from the location in a central gateway state) using less accurate Carrier-Grade NAT (CGNAT) routing.
+
+- The public IP, ISP name, country, state, and a rough estimate of the city are identified.
+
+- Not identified: Exact street address, GPS location, local private IP (such as `192.168.1.15`) or specific device name.
