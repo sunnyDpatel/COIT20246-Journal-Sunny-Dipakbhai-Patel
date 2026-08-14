@@ -90,12 +90,13 @@ For Other Students & CQ HECATE (Awarded by CQ HECATE)
 Never share your code files or finished assignments with another student, but only explain the abstract logic, make block diagrams or post the official CQU documentation.
 ## Task 5: IP Address Lookup.
 
-- **Accuracy:** Approximate. It is the city or metropolitan area, not an exact address or street.
+- ![HOME_PC](./image/week05_task05_pcHOME.png)
+![UNI_PC](./image/week05_task05_pcIP.png)
 
-- The choice between home Wi-Fi and mobile data.Home Wi-Fi vs Mobile Data.
--          Home Wi-Fi or Broadband IP (e.g., `120.147.45.12`) is correct as broadband IP ranges are associated with the local ISP exchange hubs.
--         Less accurate (often miles away from the location in a central gateway state) using less accurate Carrier-Grade NAT (CGNAT) routing.
 
-- The public IP, ISP name, country, state, and a rough estimate of the city are identified.
-
-- Not identified: Exact street address, GPS location, local private IP (such as `192.168.1.15`) or specific device name.
+- Answers & Explanations
+ Location Accuracy Moderately accurate (city level). It identifies general proximity (e.g., Melbourne or Sydney), but not your exact physical street address or GPS location.
+What is Identified
+The internet is a vast network of computers that communicate with each other over a common infrastructure.
+ISP Network Provider (ISP) It shows who owns the IP address block (Vodafone vs. On campus, traffic routes through the university’s central network node, mapping the connection to CQU’s registered hub location (Sydney) rather than your actual physical location.
+Routing Location: On campus, traffic routes through the university's central network node, mapping the connection to CQU's registered hub location (Sydney) rather than your actual physical location.
