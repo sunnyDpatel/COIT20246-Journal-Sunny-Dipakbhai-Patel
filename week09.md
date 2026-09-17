@@ -286,3 +286,57 @@ The vulnerability is due to an uninitialised resource used by Windows RDP. This 
 #### Detection and Mitigation
 
 The affected Windows versions should be identified and updated with Microsoft's security updates. Limiting unnecessary RDP access and enabling RDP access only to authorised users and networks can also help to limit exposure. Details on the security update are available from Microsoft.
+
+## Task 5: Vulnerability Disclosures
+
+I'm not a fan of any of those Californians.None of those Californians are my view.
+
+I think that it's important to do vulnerability disclosure carefully, so that when you disclose them, they're not out there and the attackers have information about them so they can attack before the vendor can provide a patch. However, vendors cannot afford to stall for too long, otherwise users would not be aware of security threats and take steps to safeguard their systems.
+
+### Why Vendors May Take Time
+
+A vendor might require to:
+
+* Understand and verify the vulnerability.
+* Determine the affected products and versions.
+* Create a security patch or other mitigation.
+* Test fix to ensure it does not introduce new issues.
+* * Give customer security recommendations.
+* Coordinate with security researchers and any other organisations affected.
+
+Triaging, code development, code review, testing, and deployment of a fix can take a long time in larger organisations, according to OWASP.
+
+### What is a reasonable time?
+
+I believe a reasonable time would allow the vendor to investigate and come up with a solution, but there should be a definite time limit. The 90 days period is a reasonable starting point for many vulnerabilities, but depends on the severity and complexity of the vulnerability.
+
+According to OWASP, Google's Project Zero has a 90-day cycle for releasing vulnerability information.
+
+### Should researchers "make it public"?
+
+I would generally prefer researchers to report the vulnerability to the vendor first and give the vendor reasonable time to solve the problem, unless it seems to be too serious to do so. This minimizes the risk of attackers being tipped off about the vulnerability in advance of users being able to defend against it.
+
+When repeated communication with the vendor has failed to bring about reasonable action and an agreed time limit has elapsed, however, public disclosure might be an option. Before releasing technical details or proof-of-concept code, the researcher should take into account the potential risks. Full disclosure is controversial, and is usually only considered if none of the other methods have succeeded or if the information on the exploit is already available.
+
+---
+
+#### Coordinated Vulnerability Disclosure
+
+I think that coordinated disclosure is a good way to do it since it provides them a chance to cooperate with each other, the researcher, and the vendor. The researcher can give the vendor sufficient details to recreate the problem; the vendor can develop and test a fix before the vulnerability is made public.
+
+Microsoft also tells users about Coordinated Vulnerability Disclosure: It is a process under which the researchers report vulnerabilities to the vendors privately, allowing the vendors to better understand the impact and solve the problem before the vulnerability is disclosed.
+
+---
+
+#### Bug Bounty Programs
+
+Bug bounties can help incentivize security researchers to report vulnerabilities directly to companies. They can offer incentives and acknowledgements to researchers and assist companies fix their security vulnerabilities.
+
+But companies must have guidelines with respect to what researchers can test, how vulnerabilities should be reported and whether researchers can publish the information. However, as cited by OWASP, there are challenges that can occur with bug bounties including false reports, resource needs and researchers testing systems outside the scope.
+
+---
+
+#### Conclusion
+
+In general, I think a balance between the three pillars of security, transparency, and responsible communication should be struck in the disclosure of vulnerabilities. Generally, vulnerabilities should be reported privately to the author(s) of the research paper first and vendors should respond and make efforts for a fix within a reasonable time. Public disclosure needs to be thought out: it can get defenders a better idea of the problem, but it can also be helpful to an attacker. A coordinated approach can be a practical method for both researchers and vendors to collaborate and mitigate the dangers to users.
+
