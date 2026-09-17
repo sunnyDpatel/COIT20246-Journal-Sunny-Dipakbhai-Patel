@@ -125,11 +125,5 @@ From exploring the access point settings, I learned that Wi-Fi performance and s
 
 I would focus mainly on using strong security, keeping the router updated, choosing a suitable channel and using a separate guest network.
 
-### Screenshot
-
-A screenshot/photo of the access point settings is included separately with the submission.
-
-Example filename:
-
-`task3-ap-settings.png`
+- ![Github](./image/week07_task03_ap.png)
 
