@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2026-09-18T00:00:00.000Z" agent="Claude" version="24.0.0" type="device">
+  <diagram name="ICMP Packet Diagram" id="icmp-packet-diagram">
+    <mxGraphModel dx="900" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Part f) First ICMP packet - encapsulation diagram" style="text;html=1;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="box1" value="Ethernet header&#10;14 bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="110" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="box2" value="IPv4 header&#10;20 bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="box3" value="ICMP header&#10;8 bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="80" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="box4" value="ICMP data&#10;32 bytes &#8224;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=13;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="190" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="box5" value="FCS&#10;4 bytes &#8225;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="50" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="caption" value="Total: 74 bytes on the wire (78 with FCS)" style="text;html=1;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="195" width="570" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note1" value="&#8224; Windows' default ping payload is 32 bytes - confirm this against your own capture's ICMP data length" style="text;html=1;fontSize=11;fontColor=#666666;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="570" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note2" value="&#8225; FCS (frame check sequence / CRC) is often stripped by the capture driver and may not appear in Wireshark's byte count" style="text;html=1;fontSize=11;fontColor=#666666;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="238" width="570" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="breakdown_title" value="ICMP header (8 bytes) breaks down into:" style="text;html=1;fontSize=12;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="275" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="breakdown_list" value="Type (1B), Code (1B), Checksum (2B), Identifier (2B), Sequence number (2B)" style="text;html=1;fontSize=11;align=left;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="570" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1text" value="Headers" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="336" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2text" value="Payload / data" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="336" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3text" value="Trailer" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="380" y="336" width="140" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
