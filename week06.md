@@ -9,23 +9,23 @@
 ![Capture Packet](./image/week06_task03_capture-packets.png)
 
 ## task 04 
-ng `http` so I could focus on the HTTP traffic.
+I passed the argument `http` to ng, to allow me to concentrate on the HTTP traffic.
 
-The browser sent HTTP GET requests when I opened the web pages. For example, it requested:
+The browser sent HTTP GET requests when I opened the web pages. As to, for instance:
 
 `GET /index.html HTTP/1.1`
 
-The server responded with `HTTP/1.1 200 OK`, which means the requested page was found and successfully sent back.
+They responded with 200 OK, meaning they found the page they requested and sent it back.
 
 The browser also requested my newly created page:
 
 `GET /12345678.html HTTP/1.1`
 
-The server again responded with `200 OK`, meaning the page was successfully received.
+Again, the server returned `200 OK`, indicating that the page was successfully received.
 
 ## b) Five Address Values
 
-For the first HTTP request, I identified the following values:
+I found the following values for the first HTTP request:
 
 - Source MAC: `08:00:27:14:87:98`
 - Destination MAC: `0a:00:27:00:00:05`
@@ -33,21 +33,21 @@ For the first HTTP request, I identified the following values:
 - Destination IP: `192.168.1.10`
 - Destination TCP port: `80`
 
-These values identify the devices and the HTTP service being used.
+These values are used to determine the devices and the HTTP service being used.
 
 ## c) Date and Time Button
 
-When I clicked the button to show the date and time, the browser did not send another HTTP request.
+When I pushed the button to display the date and time, there was no more HTTP request.
 
-This was because the date and time were generated locally by JavaScript in the browser. The web server was not needed to provide this information.
+This is because the date and time used were created locally in JavaScript in the browser. The web server was not needed to provide this information.
 
-## d) HTTP Request Packet
+R1-1000: HTTP Request Packet
 
-The HTTP request for my page was:
+I saw this in the window as my page was being requested via HTTP:
 
 `GET /12345678.html HTTP/1.1`
 
-The packet was made up of several layers:
+There were several layers of the packet:
 
 ```text
 Ethernet Header – 14 bytes
@@ -88,11 +88,11 @@ The transport protocol was TCP.
 The protocol layers were:
 
 HTTP
- ↓
+  ↓
 TCP
- ↓
+   ↓
 IPv4
- ↓
+   ↓
 Ethernet
 
 h) TCP Connection Setup
@@ -102,25 +102,23 @@ The three packets were:
 
 SYN
 
-SYN + ACK
+SYN +ACK
 
 ACK
 
 The process was:
 
 Client              Server
-  |                   |
-  | ----- SYN ------> |
-  | <--- SYN/ACK ---- |
-  | ----- ACK ------> |
-
+  |                    |
+  | ----- SYN ------>  |
+  | <--- SYN/ACK ----  |
+  | ----- ACK ------ > |
+ 
 In my capture, the connection started at approximately 1.250000 seconds and the HTTP data started at approximately 1.253500 seconds.
 
 The difference was approximately 3.5 milliseconds.
 
-
-
-# Task 05
+ Task 05
 
 - I used the developer tools in my web browser to look at the cookies stored by a website that I regularly visit. I did not include the actual cookie values because some of them can contain private or sensitive            information.
 
@@ -129,13 +127,15 @@ The difference was approximately 3.5 milliseconds.
 - Some of the information included:
 
 - **Session information** – Cookies can contain a session ID that allows the website to recognise my browser while I am using the website.
-- **Login or authentication information** – Some cookies help remember that a user has logged in, although the actual password is normally not stored in the cookie.
-- **User preferences** – Cookies can remember settings such as language, region, theme or other preferences.
-- **Shopping/cart information** – On some websites, cookies can be used to remember items added to a shopping cart.
-- **Tracking information** – Some cookies are used to track visits and user activity. This can help the website understand how people use its pages.
-- **Analytics information** – Cookies can be used by analytics services to identify returning browsers and collect information about website usage.
-- **Advertising information** – Some third-party cookies can be used to help provide personalised advertising or measure advertising activity.
+- **Login or authentication   information** – Some cookies help remember that a user has logged in, although the actual password is normally not stored in the cookie.
+- **User preferences** – Cookies can be used to remember the settings like language, region, theme etc.
+- **Shopping/cart information** –On certain sites, cookies are used to keep track of things that users add to their shopping cart.
+- **Tracking information** – Some cookies are used to track visits and activity on the site. This can assist the web page to understand how folks make use of its pages
+- **Analytics information** –Analytics services can use the cookies to recognize the return customers and gather information about the use of the website.
+- **Advertising information** –Some third-party cookies are used for the purpose of personalised advertising, or to measure advertising activity
 
-I saw that typically cookies have a name, value, plus other attributes like domain, path, expiration date, and security attributes. I did not record or share the actual values as it may contain user information that might be able to identify or authenticate a user.
 
-In general, it was a wakeup call for me that cookies aren't only for remembering your login session. They can also have preferences and session data, tracking identifiers and other data used to identify and interact with a browser.
+I noticed that cookiess are normally named, they have a value, and there are other attributes such as domain, path, expiration date and security attributes. I did not record or share the actual values as it may contain user information that might be able to identify or authenticate a user.
+
+> In general, it was a wakeup call for me that cookies aren't only for remembering your login session. They may also contain preferences and session data, tracking identifiers and other information to identify and interact with a browser.
+
