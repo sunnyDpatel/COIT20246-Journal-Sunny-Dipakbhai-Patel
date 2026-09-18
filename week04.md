@@ -26,3 +26,9 @@ Explain the purpose of ARP Packets.
    The Windows PC has the MAC address 08:00:27:14:87:98, while the OpenWRT VM has the MAC address 0a:00:27:00:00:05. So, the 4th frame is sent from the Windows PC (MAC address) to the OpenWRT VM (MAC address).
 
     This is ICMP (echo reply) 2nd Packet - ICMP Type 10 Code 0. Once it receives the Echo Request, it is forwarded back to the Windows PC by the OpenWRT VM. The direction of the communication has         changed, hence the MAC addresses have been reversed.
+
+## ARP packet
+ ![part b](./image/week4task4-a4p.png)
+
+## ICMP packet
+ ![part b](./image/week04_task04_ICMP.png)
